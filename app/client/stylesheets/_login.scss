@@ -2,7 +2,7 @@
   height: 100%;
   width: 100%;
   background-color: $login-bg-color;
-  background: $login-bg; 
+  background: $login-bg;
   background-size: cover;
 
   > .container {
@@ -24,6 +24,12 @@
           width: 100px;
           height: 100px;
         }
+      }
+
+      .title {
+        text-align: center;
+        font-size: 1em;
+        margin: 0;
       }
 
       .button {
